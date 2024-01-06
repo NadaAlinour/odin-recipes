@@ -1,0 +1,132 @@
+body {
+  background-color: rgb(247, 220, 203);
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(63, 31, 1);
+  padding-bottom: 20px;
+}
+
+/* home styles */
+
+.header-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 87%;
+  margin: auto;
+  border-bottom: 1px solid rgb(63, 31, 1, .75);
+}
+
+.header-text h1 {
+  color: rgb(63, 31, 1);
+  letter-spacing: 0.2rem;
+  font-size: 2.5rem;
+}
+
+.recipe-list {
+  margin-top: 65px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  justify-content: center;
+  column-gap: 35px;
+
+}
+
+.recipe-card {
+  width: 100%;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+
+}
+
+.recipe-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  overflow: hidden;
+  flex-grow: 1;
+  border-radius: 10px;
+}
+
+.link-container {
+  width: 100%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link-container a {
+  text-decoration: none;
+  color: rgb(63, 31, 1);
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+
+.link-container a:hover {
+  color: white;
+}
+
+
+/* recipe details styles */
+
+.details-header {
+  justify-content: left;
+  width: 95%;
+}
+
+.details-header h1 {
+  font-size: 1.75rem;
+}
+
+.recipe-details-img-container {
+  height: 400px;
+  width: 400px;
+  border-radius: 200px;
+  margin: auto;
+  margin-top: 55px;
+  margin-bottom: 20px;
+
+}
+
+.recipe-details-img-container img {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  border-radius: 200px;
+}
+
+.recipe-desc-text {
+  text-align: center;
+}
+
+.list-header {
+  letter-spacing: 0.2rem;
+  background-color: rgb(63, 31, 1);
+  color: rgb(252, 208, 197);
+  height: 50px;
+  width: 95%;
+  margin: auto;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  margin: 50px 0px 0px 0px;
+}
+
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  letter-spacing: 0.05rem;
+  margin-bottom: 20px;
+}
+
+.sub-header {
+  margin-left: 15px;
+}
